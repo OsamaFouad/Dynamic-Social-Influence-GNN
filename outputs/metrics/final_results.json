@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "model": "LastWindow",
+      "auc_roc": 0.93931202884689,
+      "average_precision": 0.42576654157149746,
+      "f1": 0.018072289156626505,
+      "precision_at_10": 0.8,
+      "recall_at_10": 0.024390242993831635,
+      "precision_at_50": 0.78,
+      "recall_at_50": 0.11890243738889694,
+      "precision_at_100": 0.71,
+      "recall_at_100": 0.21646341681480408
+    },
+    {
+      "model": "LogisticRegression",
+      "auc_roc": 0.9571103076519956,
+      "average_precision": 0.36127010491097644,
+      "f1": 0.2024778761061947,
+      "precision_at_10": 0.5,
+      "recall_at_10": 0.015243902802467346,
+      "precision_at_50": 0.34,
+      "recall_at_50": 0.0518292672932148,
+      "precision_at_100": 0.49,
+      "recall_at_100": 0.14939025044441223
+    },
+    {
+      "model": "RandomForest",
+      "auc_roc": 0.8415200931873591,
+      "average_precision": 0.14539563916315842,
+      "f1": 0.1810774105930285,
+      "precision_at_10": 0.1,
+      "recall_at_10": 0.0030487803742289543,
+      "precision_at_50": 0.34,
+      "recall_at_50": 0.0518292672932148,
+      "precision_at_100": 0.3,
+      "recall_at_100": 0.09146341681480408
+    },
+    {
+      "model": "DynamicGNN",
+      "auc_roc": 0.865234979442062,
+      "average_precision": 0.13471174021678184,
+      "f1": 0.1481967213114754,
+      "precision_at_10": 0.3,
+      "recall_at_10": 0.009146341122686863,
+      "precision_at_50": 0.3,
+      "recall_at_50": 0.04573170840740204,
+      "precision_at_100": 0.28,
+      "recall_at_100": 0.08536585420370102
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+data:
+  raw_path: data/raw/higgs-activity_time.txt.gz
+  processed_path: data/processed/events.parquet
+  snapshots_dir: data/snapshots
+  window_hours: 6
+  max_events: null
+  max_users: null
+
+model:
+  hidden_dim: 64
+  gnn_layers: 2
+  gru_hidden_dim: 64
+  dropout: 0.3
+  seq_len: 4
+  use_gat: true
+  gat_heads: 4
+
+training:
+  epochs: 50
+  lr: 0.001
+  weight_decay: 1.0e-4
+  patience: 8
+  seed: 42
+  device: auto
+
+evaluation:
+  top_k_values: [10, 50, 100]
+  influence_percentile: 0.10
+
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15

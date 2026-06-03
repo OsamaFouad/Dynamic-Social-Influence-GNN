@@ -1,0 +1,28 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Local notebooks
+.ipynb_checkpoints/
+
+# Generated data artifacts
+data/raw/*
+data/processed/*
+data/snapshots/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/snapshots/.gitkeep
+
+# Runtime logs and temporary files
+*.log
+*.tmp
