@@ -2,6 +2,8 @@
 
 **Predicting future user influence on Twitter using timestamped interaction graphs and Dynamic GNNs.**
 
+![Dynamic social interaction network preview](assets/project-preview.png)
+
 ---
 
 ## Project Objective
